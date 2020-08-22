@@ -2,18 +2,6 @@ import React from 'react'
 import { useDispatch, useSelector } from 'react-redux'
 import { voteAnecdote } from '../reducers/anecdoteReducer'
 
-
-// {blogs.sort((blogA, blogB) => blogB.likes - blogA.likes).map(blog =>
-//   <Blog
-//     key={blog.id}
-//     blog={blog}
-//     likeBlog={likeBlog}
-//     deleteBlog={deleteBlog}
-//     user={user}
-//   />
-// )}
-
-
 const Anecdote = ({ anecdote, handleClick }) => {
   return (
     <div>
